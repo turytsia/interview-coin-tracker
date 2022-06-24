@@ -1,0 +1,85 @@
+.app__table {
+    border-spacing: 0px;
+    display: block;
+}
+
+.app__table thead tr {
+    background-color: var(--color-table-gray);
+    color: black;
+    white-space: nowrap;
+}
+
+.app__table thead th {
+    padding: 12px 20px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    width: 25%;
+    border-bottom: 1px dashed var(--color-table-border-gray);
+}
+
+.app__table thead th button {
+    position: relative;
+    height: 23px;
+    width: 30px;
+}
+
+.app__table thead th button span {
+    position: absolute;
+    display: inline-block;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 10px;
+}
+
+.app__table thead th button span {
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.app__table thead th>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app__table thead th button {
+    border: none;
+    background-color: transparent;
+}
+
+.app__table tbody td {
+    padding: 8px 20px;
+    width: 20%;
+}
+
+.app__table tbody td span {
+    display: block;
+}
+
+.app__table tbody tr:nth-child(2n+1) {
+    background-color: white;
+}
+
+.app__table tbody tr:nth-child(2n) {
+    background-color: var(--color-table-gray);
+}
+
+.on-drop {
+    animation: drop 0.5s;
+}
+
+.on-rise {
+    animation: rise 0.5s;
+}
+
+@keyframes rise {
+    50% {
+        background-color: var(--highlight-rise);
+    }
+}
+
+@keyframes drop {
+    50% {
+        background-color: var(--highlight-drop);
+    }
+}
