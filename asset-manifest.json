@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/webapp-coin-tracker/static/css/main.1ec6fcd0.css",
-    "main.js": "/webapp-coin-tracker/static/js/main.a2c3ce46.js",
+    "main.js": "/webapp-coin-tracker/static/js/main.e5365fb8.js",
     "index.html": "/webapp-coin-tracker/index.html",
     "main.1ec6fcd0.css.map": "/webapp-coin-tracker/static/css/main.1ec6fcd0.css.map",
-    "main.a2c3ce46.js.map": "/webapp-coin-tracker/static/js/main.a2c3ce46.js.map"
+    "main.e5365fb8.js.map": "/webapp-coin-tracker/static/js/main.e5365fb8.js.map"
   },
   "entrypoints": [
     "static/css/main.1ec6fcd0.css",
-    "static/js/main.a2c3ce46.js"
+    "static/js/main.e5365fb8.js"
   ]
 }
