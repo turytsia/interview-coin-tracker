@@ -52,7 +52,7 @@ export default function TableHeaders(props) {
     const action =
       nextType === "NONE" ? defaultAction : { col, type: nextType };
 
-    props.onSortCoins(action);
+    props.onSort(action);
 
     dispatchSortConfig(action);
   };
