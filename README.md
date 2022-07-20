@@ -9,4 +9,4 @@ The web application is developed using `React.js` library.
 
 ## About
 
-This project I got after the interview in [Easycon Solution](https://www.easycon.cz/)
+This project I got for the interview in [Easycon Solution](https://www.easycon.cz/)
